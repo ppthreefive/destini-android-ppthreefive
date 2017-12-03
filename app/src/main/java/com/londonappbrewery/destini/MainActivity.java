@@ -12,10 +12,10 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity
 {
     // TODO: Steps 4 & 8 - Declare member variables here:
-    Button mFirstButton;
-    Button mSecondButton;
-    TextView mStory;
-    int mStoryIndex = 0;
+    private Button mFirstButton;
+    private Button mSecondButton;
+    private TextView mStory;
+    private int mStoryIndex = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
